@@ -83,7 +83,7 @@ body {
 }
 
 .home {
-  background-image: url(img/bg.jpg);
+  background-image: url(img/bg.png);
   background-size: cover;
   min-height: 100vh;
   margin-top: -6rem;
@@ -110,7 +110,7 @@ body {
 }
 
 .home p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #666666;
 }
 
@@ -245,8 +245,8 @@ body {
 
 .timeline li .timeline-panel::before {
   content: "";
-  position: absolute;
   display: inline-block;
+  position: absolute;
   border-top: 15px solid transparent;
   border-left: 15px solid #ccc;
   border-right: 0 solid #ccc;
@@ -381,7 +381,7 @@ body {
 }
 
 .timeline li .timeline-panel {
-  width: 65px;
+  width: 45%;
   transform: translateX(-20px);
 }
 
