@@ -293,21 +293,26 @@ body {
 .rsvp {
   background-color: var(--bg);
 }
-.rsvp h2{
+
+.rsvp h2 {
   font-size: 4.5rem;
 }
-.rsvp p{
+
+.rsvp p {
   color: white;
 }
-.rsvp form label{
+
+.rsvp form label {
   color: white;
 }
-.rsvp button{
+
+.rsvp button {
   color: white;
   border: 1px solid var(--pink);
   background-color: var(--pink);
 }
-.rsvp button:hover{
+
+.rsvp button:hover {
   color: var(--pink);
   border: 1px solid white;
   background-color: white;
@@ -330,13 +335,14 @@ footer a {
   font-weight: bold;
   text-decoration: none;
 }
-footer a:hover{
+
+footer a:hover {
   color: var(--bg);
   font-weight: bold;
   text-decoration: none;
 }
 
-.audio-icon-wrapper{
+.audio-icon-wrapper {
   width: 4rem;
   height: 4rem;
   font-size: 4rem;
@@ -358,10 +364,13 @@ footer a:hover{
 @keyframes rotating {
   from {
     transform: rotate(0);
-} to {
-  rotate: 360deg;
+  }
+
+  to {
+    rotate: 360deg;
+  }
 }
-}
+
 /* MediaQuery */
 
 /* Extra Large */
@@ -377,6 +386,7 @@ footer a:hover{
     font-size: 75%;
   }
 }
+
 .home .heart {
   display: none;
 
@@ -418,7 +428,7 @@ footer a:hover{
   }
 }
 
-.simply-countdown > .simply-section {
+.simply-countdown>.simply-section {
   padding: 60px;
   margin: 5px;
 }
@@ -444,8 +454,8 @@ footer a:hover{
   }
 }
 
-.simply-countdown > .simply-section {
-  padding: 35px;
+.simply-countdown>.simply-section {
+  padding: 25px;
   margin: 2px;
 }
 
