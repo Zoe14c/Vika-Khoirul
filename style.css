@@ -37,7 +37,8 @@ body {
 
 .hero h1 {
   font-family: "sacramento", cursive;
-  font-size: 6rem;
+  font-size: 4rem;
+  color: #280202;
 }
 
 .hero h4 {
