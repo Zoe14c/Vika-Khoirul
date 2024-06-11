@@ -6,8 +6,8 @@
 }
 
 .simply-countdown > .simply-section {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,7 +19,7 @@
   border-radius: 50%;
 }
 .simply-countdown > .simply-section {
-  padding: 40px;
+  padding: 30px;
   margin: 12px;
 }
 .simply-countdown > .simply-section .simply-amount,
